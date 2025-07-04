@@ -62,7 +62,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.2s;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
 .favorite-btn:hover {
@@ -71,6 +73,7 @@
 
 .favorite-btn.active {
   color: #ff4757;
+  transform: scale(1.2);
 }
 
 .rating-select {
