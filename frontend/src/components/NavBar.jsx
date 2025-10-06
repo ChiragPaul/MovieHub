@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">MovieHub</Link>
+        <Link to="/">MovieMaina</Link>
       </div>
       <div className="navbar-links">
         <Link to="/" className="nav-link">
